@@ -1,0 +1,61 @@
+.cuerpoPantallaAviso {
+  background: #000785;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+
+}
+.PantallaAvisoComponente {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 50vh;
+}
+.PantallaAvisoComponente form {
+  background-color: #000799;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+
+.PantallaAvisoComponente input {
+  background: #000789;
+  border-radius: 5px;
+  border-bottom: 2px solid #7e84ff;
+  outline: none;
+  color: white;
+  padding: 8px;
+  margin: 10px;
+}
+.PantallaAvisoComponente button {
+  margin: 10px;
+  width: 20%;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.PantallaAvisoComponente h1 {
+  font-size: 4vh;
+  text-align: center;
+}
+
+.PantallaAvisoComponente h2 {
+  text-align: center;
+  font-size: 2vh;
+}
+.error{
+  color: red;
+  font-size: 2.5vh;
+}
+
+@media (max-width:768px) {
+  .PantallaAvisoComponente h1 {
+    font-size: 3vh;
+  }
+  .PantallaAvisoComponente h2 {
+    text-align: center;
+    font-size: 2vh;
+  }
+}
